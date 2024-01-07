@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vista div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*    border: 1px solid #ddd;
+    border-radius: 5px; */
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.vista div h2,
+.vista div p {
+    text-align: center;
+}
+.vista img {
+    width: 50%;
+    height: auto;
+    text-align: center;
+ }
+
+ .vista button{
+    background-color:#3d9b40;
+    color: white;
+ }
+@media(min-width:768px) {
+    .vista {
+        flex-wrap: nowrap;
+    }
+
+    .vista div {
+        width: 50%;
+    }
+}

@@ -1,0 +1,35 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.divProducto {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   padding: 20px;
+   margin: 10px;
+   box-sizing: border-box;
+   width: 200px;
+}
+
+.divProducto img {
+   width: 100%;
+   height: auto;
+}
+
+.divProducto h2 {
+   margin-top: 10px;
+   margin-bottom: 5px;
+   color: #78a452;
+}
+
+.divProducto p {
+   text-align: justify;
+}
+.divProducto button{
+   background-color:#3d9b40;
+   color: white;
+}
