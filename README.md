@@ -9,6 +9,6 @@ Para el desarrollo, necesitarás instalar las dependencias del proyecto. Simplem
 4. Abre un navegador web y visita http://localhost:3000 para ver el proyecto en acción.
 También puede consultar el archivo README.md dentro de la carpeta del proyecto para obtener información adicional sobre cómo configurar y ejecutar el proyecto.
 # Desarrollo
-Este proyecto utiliza componentes para el armado de la estructura web, los productos y las imágenes se renderizan desde arrays de objetos. Además, se utiliza react-bootstrap para el slider y react-router-dom para el enrutado. La página de contacto incluye un mapa de Google incrustado en un iframe, y las listas se crean a partir de los mapas. El proyecto es responsivo y utiliza Git con Github para el manejo de repositorio y despliegue del proyecto.
+Este proyecto utiliza componentes para el armado de la estructura web, los productos y las imágenes se renderizan desde arrays de objetos. Además, se utiliza react-bootstrap para el slider y react-router-dom para el enrutado. La página de contacto incluye un mapa de Google incrustado en un iframe, y las listas se crean a partir de los mapas. También, se utiliza Hooks para otorgarle dinamismo a los botones. El proyecto es responsivo y utiliza Git con Github para el manejo de repositorio y despliegue del proyecto.
 # Documentación
 Todos los detalles de implementación y desarrollo se pueden encontrar en este archivo README.md.
