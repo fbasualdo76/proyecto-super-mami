@@ -16,11 +16,11 @@ function App() {
         <Slider />
         <main>
           <Routes>
-            <Route path="/practicoreactutn" element={<ListaProductos />} />
-            <Route path="/practicoreactutn/carrito" element={<div>CARRITO</div>} />
-            <Route path="/practicoreactutn/contacto" element={<Contacto />} />
+            <Route path="/proyecto-super-mami" element={<ListaProductos />} />
+            <Route path="/proyecto-super-mami/carrito" element={<div>CARRITO</div>} />
+            <Route path="/proyecto-super-mami/contacto" element={<Contacto />} />
             {productos.map((producto) => (
-              <Route key={producto.nombre} path={producto.nombre} element={<VistaProducto producto={producto} />} />
+              <Route key={producto.nombre} path={`/proyecto-super-mami/${producto.nombre}`} element={<VistaProducto producto={producto} />} />
             ))}
           </Routes>
           <Section />

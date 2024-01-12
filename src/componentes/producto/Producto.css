@@ -23,13 +23,13 @@
 .divProducto h2 {
    margin-top: 10px;
    margin-bottom: 5px;
-   color: #78a452;
+   color: #78A452;
 }
 
 .divProducto p {
    text-align: justify;
 }
 .divProducto button{
-   background-color:#3d9b40;
+   background-color:#78A452;
    color: white;
 }

@@ -10,7 +10,7 @@
    /* justify-content: space-between; */
    align-items: center;
    padding: 20px;
-   background-color: rgb(236, 240, 18);
+   background-color:#FCDC00;
 }
 
 .header img {
@@ -36,7 +36,7 @@
 
 .nav ul li a {
    font-weight: bold;
-   color: #3c8100;
+   color:#0C4319
    
 }
 
